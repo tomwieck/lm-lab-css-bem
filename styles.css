@@ -1,7 +1,51 @@
 /* You can delete / re-write this img class  */
+.page-heading {
+    font-family: Arial, Helvetica, sans-serif;
+}
 
-img {
-    max-width: 200px;
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.card {
+    border: 1px solid black;
+    border-radius: 5px;
+    box-shadow: 1px 2px 2px 2px grey;
+    display: grid;
+    flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 10px;
+    padding: 10px;
+    width: 250px;
+}
+
+.card--light {
+    background-color: aliceblue;
+}
+.card--dark {
+    background-color: black;
+    color: white;
+} 
+
+
+.card__button {
+    font-size: 1rem;
+    width: 100%;
+}
+
+.card__button--light {
+    background-color: white;
+    border-color: blue;
+}
+.card__button--dark {
+    background-color: black;
+    border-color: red;
+    color: white;
+}
+
+.card__image {
+    width: 100%;
 }
 
 /* Happy coding! */
